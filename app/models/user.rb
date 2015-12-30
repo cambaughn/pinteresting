@@ -7,4 +7,8 @@ class User < ActiveRecord::Base
   def remember_me
   	true
   end
+
+  has_many :pins
+
+  
 end
